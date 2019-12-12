@@ -1,0 +1,30 @@
+body{
+	background: orange;
+}
+
+/*pARA EL FOOTER*/
+footer{
+	background: #222;
+	text-align:center;
+}
+
+footer p, h3{
+	text-align: justify;
+	color: white;
+}
+
+ul.redes li{
+	display:inline-block;
+}
+
+ul.redes li a {
+	color: orange;
+}
+
+.avatar{
+	border:5px solid orange;
+	border-radius: 50%;
+	float: left;
+	height:100px;
+	width:100px;
+}
