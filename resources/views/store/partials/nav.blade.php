@@ -1,5 +1,5 @@
 <nav class = "navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> InforStyles </font> </font> </a>
+  <a class="navbar-brand main-title"  href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> InforStyles </font> </font> </a>
   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "# navbarColor01" aria-controls = "navbarColor01" aria-extended = "false" aria-label = "Navegación de palanca ">
     <span class = "navbar-toggler-icon"> </span>
   </button>

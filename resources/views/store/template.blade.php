@@ -12,6 +12,7 @@
 		color: #FEFCFC
 	}
 	</style>
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 
 	<!--ESTILOS `PARA EL FOOTER CON BOOSTRAP-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/main.css')}}">
@@ -27,6 +28,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+	<!--LLAMAMOS LA ARCHIVO PINTEREST_GRID.JS QUE COPIAMOS-->
+	<script src="{{ asset('js/pinterest_grid.js') }}"></script>
+	<!--USAMOS EL ARCHIVO MAIN.JS QUE CREAMOS-->
+	<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
