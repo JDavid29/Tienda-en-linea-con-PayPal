@@ -17,7 +17,9 @@
 				<!--VVVVVVVVVVVVVVVVVVVVVV   NO FUNCIONO LABEL V  	VVVVVVVVV-->
 				<h3><span class="label label-success">Precio: ${{ number_format($producto->precio,2) }}</span></h3>
 				<p>
-					<a class="btn btn-warning" href="#"><i class="fa fa-cart-plus"></i> Lo Compro</a>
+					<a class="btn btn-warning" href=" {{route('cart-add', $producto->ficha)}} ">
+						<i class="fa fa-cart-plus"></i>Lo Compro
+					</a>
 					<a class="btn btn-primary" href="{{ route('producto-detalle', $producto->ficha) }}"><i class="fa fa-chevron-circle-right"></i>Leer mas</a>
 				</p>
 			</div>

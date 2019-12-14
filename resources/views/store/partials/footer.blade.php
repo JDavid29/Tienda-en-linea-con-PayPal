@@ -40,7 +40,7 @@
 					<a href="#"><i class="fa fa-youtube-square fa-3x"></i></a>
 				</li>
 				<h3>Escribenos:</h3>
-				<i class="fa fa-at"></i><a href="#">jose.david.jaa@gmail.com</a>
+				<i class="fa fa-at"></i><a href="/correo">jose.david.jaa@gmail.com</a>
 			</ul>
 		</div>
 	</div>

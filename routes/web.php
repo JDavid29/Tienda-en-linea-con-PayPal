@@ -1,15 +1,9 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::bind('producto', function($ficha){
+	return App\Producto::where('ficha', $ficha)->first();
+});
+
 Route::get('/', [
 	'as' => 'home',
 	'uses' => 'StoreController@index'
@@ -20,4 +14,16 @@ Route::get('producto/{ficha}', [
 	'uses' => 'StoreController@show'
 ]);
 
+//CARRITO ---------
+Route::get('cart/show', [
+	'as'=>'cart-show',
+	'uses' => 'CartController@show'
+]);
 
+Route::get('cart/add/{producto}', [
+	'as'=>'cart-add',
+	'uses' => 'CartController@add'
+]);
+
+//RUTA DEL CORREO FORMULARIO Y FUNCION
+Route::resource('/correo','MessageController');

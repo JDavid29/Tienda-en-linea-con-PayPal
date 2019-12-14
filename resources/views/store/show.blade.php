@@ -22,7 +22,7 @@
 						<span class="label label-success">Precio: ${{ number_format($producto->precio,2) }}</span>
 					</h3>
 					<p>
-						<a class="btn btn-warning btn-block" href="#">
+						<a class="btn btn-warning btn-block" href=" {{route('cart-add', $producto->ficha)}} ">
 							Lo Compro<i class="fa fa-cart-plus fa-2x"></i>
 						</a>
 					</p>
@@ -34,7 +34,7 @@
 	</div>		<hr><!--AÑADIMOS UN SEPARADOR DE LINEA-->
 
 	<p>
-		<a class="btn btn-primary" href="{{ route('home')}}" >
+		<a class="btn btn-primary" href="{{ route('home')}}">
 			<i class="fa fa-chevron-circle-left">Regresar</i>
 		</a>
 	</p>
