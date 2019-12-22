@@ -1,5 +1,5 @@
 <nav class = "navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand main-title"  href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> InforStyles </font> </font> </a>
+  <a class="navbar-brand main-title"  href="{{ route('home') }}"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> InforStyles </font> </font> </a>
   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "# navbarColor01" aria-controls = "navbarColor01" aria-extended = "false" aria-label = "Navegación de palanca ">
     <span class = "navbar-toggler-icon"> </span>
   </button>
@@ -11,14 +11,14 @@
       </li>
 
       <li class = "nav-item">
-        <a class="nav-link" href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;">  </font> </font> <i class="fa fa-shopping-cart fa_custom fa-2x"></i> </a>
+        <a class="nav-link" href="{{ route('cart-show') }}"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;">  </font> </font> <i class="fa fa-shopping-cart fa_custom fa-2x"></i> </a>
       </li>
 
       <li class = "nav-item">
         <a class="nav-link" href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> Conoce mas </font> </font> </a>
       </li>
       <li class = "nav-item">
-        <a class="nav-link" href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> Contacto </font> </font > </a>
+        <a class="nav-link" href="/correo"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> Contacto </font> </font > </a>
       </li>
       <li class = "nav-item">
         <a class="nav-link" href="#"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> Acerca de </font> </font > </a>

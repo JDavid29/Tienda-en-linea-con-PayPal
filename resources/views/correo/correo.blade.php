@@ -27,6 +27,9 @@
 					@error('nombre')
 			            <div class="alert alert-danger">
 			              El Nombre es Obligatorio
+			              	<button type="button" class="close" data-dismiss="alert" aria-label="close">
+				            	<span area-hidden="true">&times;</span>
+				          	</button>
 			            </div>
 			    	@enderror
 
@@ -34,12 +37,12 @@
 
 
 					@error('email')
-			        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-			          El Email es Obligatorio
-			          <button type="button" class="close" data-dismiss="alert" aria-label="close">
-			            <span area-hidden="true">&times;</span>
-			          </button>
-			        </div>
+				        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+				          El Email es Obligatorio
+				        	<button type="button" class="close" data-dismiss="alert" aria-label="close">
+				            	<span area-hidden="true">&times;</span>
+				          	</button>
+				        </div>
 			    	@enderror
 
 					<input type="email" name="email" placeholder="Email..." class="form-control mb-2">
