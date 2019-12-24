@@ -25,12 +25,13 @@
       </li>
     </ul>
 
-    <li class="dropdown">
+    <!--<li class="dropdown">
         <a href="#" class="dropdown-tooggle" data-toogle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user fa_custom fa-2x"></i><span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="#">Iniciar Seccion</a></li>
         </ul>
-    </li>
+    </li>       CREAMOS UNA VISTA PARCIAL-->
+    @include('store.partials.menu-user')
 
   </div>
 </nav>
